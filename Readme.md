@@ -1,14 +1,12 @@
-O objetivo do seu trabalho é fazer uma árvore de jogo para selecionar a melhor opção 
-para jogar o jogo da velha.
+##Game Tree no Jogo da Velha
 
-Você pode fazer a interface de jogo em terminal. Pode colocar jogador contra máquina
-ou máquina contra máquina.
+O objetivo do seu trabalho é fazer uma árvore de jogo para selecionar a melhor opção para jogar o jogo da velha.
 
-Para simplificar sua vida existe um jogo similar ao jogo da velha, porém jogados 
-com números de 1 a 9.
-Dois jogadores se revezam em turnos escolhendo números de 1 a 9 sem repetição.
-O primeiro jogador que conseguir uma combinação entre seus números que dê soma
-15 ganha o jogo.
+Você pode fazer a interface de jogo em terminal. Pode colocar jogador contra máquina ou máquina contra máquina.
+
+Para simplificar sua vida existe um jogo similar ao jogo da velha, porém jogados  com números de 1 a 9.
+
+Dois jogadores se revezam em turnos escolhendo números de 1 a 9 sem repetição. O primeiro jogador que conseguir uma combinação entre seus números que dê soma 15 ganha o jogo.
 
 Esse jogo na verdade é equivalente ao jogo da velha pensado no seguinte tabuleiro:
 
@@ -19,8 +17,10 @@ Esse jogo na verdade é equivalente ao jogo da velha pensado no seguinte tabulei
 Observe que a soma entre quaisquer linha, coluna ou diagonal é 15.
 
 Algumas outras referências você pode encontrar em
+
 Jogo da velha: https://en.wikipedia.org/wiki/Tic-tac-toe
+
 Árvores de Jogo: https://en.wikipedia.org/wiki/Game_tree
 
 Obs: você não precisa implementar o minimax, basta criar a árvore de jogos 
-e depois fazer a busca pelo ramo que dá a máquina a vitória em menos passos.
+e depois fazer a busca pelo ramo que dá a máquina a vitória em menos passos. Mas se quiser implementar o minimax, vá em frente.
